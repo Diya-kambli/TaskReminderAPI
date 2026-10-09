@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Add Task - Task Reminder</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="header">
+
+        <h1>TASK REMINDER</h1>
+
+    </div>
+
+
+    <div class="navbar">
+
+        <a href="index.html">Home</a>
+
+        <a href="dashboard.html">My Tasks</a>
+
+        <a href="addtask.html">Add Task</a>
+
+        <a href="#">Completed</a>
+
+    </div>
+
+
+    <div class="container">
+
+        <h2>Add New Task</h2>
+
+
+        <div class="task-card">
+
+            <form action="addTask" method="post">
+
+                <label>Task Name</label>
+                <br>
+
+                <input type="text" name="taskName" placeholder="Enter task name" required>
+
+                <br><br>
+
+
+                <label>Description</label>
+                <br>
+
+                <textarea name="description" placeholder="Enter task description" required></textarea>
+
+                <br><br>
+
+
+                <label>Date</label>
+                <br>
+
+                <input type="date" name="date" required>
+
+                <br><br>
+
+
+                <label>Time</label>
+                <br>
+
+                <input type="time" name="time" required>
+
+                <br><br>
+
+
+                <label>Priority</label>
+                <br>
+
+                <select name="priority">
+
+    <option>Low</option>
+
+    <option>Medium</option>
+
+    <option>High</option>
+
+</select>
+
+                <br><br>
+
+
+                <button class="add-button" type="submit">
+                    Add Task
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

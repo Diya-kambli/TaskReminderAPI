@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f1f5;
+    color: #333;
+}
+
+.header {
+    background-color: #e8b4c8;
+    padding: 25px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    color: white;
+    font-size: 32px;
+}
+
+.navbar {
+    background-color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #b04a72;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.container h2 {
+    color: #b04a72;
+}
+
+.task-card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+.task-card h3 {
+    color: #b04a72;
+}
+
+.button {
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #d889a7;
+    color: white;
+}
+
+.add-button {
+    display: block;
+    margin: 25px auto;
+    background-color: #b04a72;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+form label {
+    font-weight: bold;
+    color: #b04a72;
+}
+
+form input,
+form textarea,
+form select {
+    width: 90%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+form textarea {
+    height: 100px;
+    resize: none;
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+    outline: none;
+    border-color: #d889a7;
+}
